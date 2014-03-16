@@ -1,0 +1,21 @@
+@import "basic.css";
+
+
+aside{
+	float:left;
+	width:23%;
+}
+
+div#content{
+	float:right;
+	width:75%;
+}
+
+
+div#container:after{
+	display:block;
+	clear:both;
+	height:0;
+	content:".";
+	visibility:hidden;
+}
