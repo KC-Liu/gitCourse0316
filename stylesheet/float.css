@@ -1,0 +1,24 @@
+@import "basic.css";
+
+div#wrapper{
+	width:840px;
+}
+
+aside{
+	float:left;
+	width:192px;
+}
+
+div#content{
+	float:right;
+	width:636px;
+}
+
+div#container:after{
+	display:block;
+	clear:both;
+	height:0;
+	content:".";
+	visibility:hidden;
+}
+
